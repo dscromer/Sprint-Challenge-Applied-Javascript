@@ -51,3 +51,9 @@ function Carousel() {
 
 const carouselContainer = document.querySelector('.carousel-container')
 carouselContainer.appendChild(Carousel());
+
+const imageArray = ["./assets/carousel/mountains.jpeg", "./assets/carousel/computer.jpeg", "./assets/carousel/trees.jpeg", "./assets/carousel/turntable.jpeg"]
+
+imageArray.forEach(data => {
+  carouselContainer.appendChild(data.imageArray);
+})
